@@ -145,7 +145,6 @@ svg {
 @media screen and (min-width: 1024px) {
     svg {
         top: 59px;
-        margin: 0px;
     }
 }
 
