@@ -50,7 +50,7 @@ const currentDate = new Date();
 
 // Get various components of the date
 const curYear = currentDate.getFullYear();
-const curMonth = currentDate.getMonth() + 1; // Month is zero-based, so add 1
+const curMonth = currentDate.getMonth() ; // Month is zero-based, so add 1
 const curDay = currentDate.getDate();
 const hours = currentDate.getHours();
 const minutes = currentDate.getMinutes();
@@ -113,6 +113,13 @@ function calculateAge() {
       month_total = 12 - Math.abs((month - curMonth));
       document.querySelector(".dash2").innerText = month_total;
     }
-    document.querySelector(".dash3").innerText = Math.abs(curDay - day);
+    if (curDay>day) {
+      document.querySelector(".dash3").innerText = Math.abs(curDay - day);  
+      month_total += 1;
+      document.querySelector(".dash2").innerText = month_total;
+    } else {
+      document.querySelector(".dash3").innerText = 31-(Math.abs(curDay - day));
+    }
+    
   }
 }
