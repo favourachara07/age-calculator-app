@@ -134,7 +134,7 @@ svg {
 
 @media screen and (min-width: 350px) {
     input {
-        width: 95px;
+        width: 90px;
     }
 
     svg {
@@ -145,6 +145,7 @@ svg {
 @media screen and (min-width: 1024px) {
     svg {
         top: 59px;
+        margin: 0 20px 0 150px;
     }
 }
 
