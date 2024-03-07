@@ -32,14 +32,14 @@ body {
 
 
 input {
-    width: 100px;
-    height: 40px;
+    width: 6.25rem;
+    height: 2.5rem;
     margin: 5px;
     margin-top: 1rem;
     padding-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 10px;
     border: 0.0001px solid hsl(0, 0%, 86%);
 }
@@ -75,7 +75,7 @@ svg {
     font-family: "Inter-Bold", Helvetica;
     font-weight: 500;
     color: #000000;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
@@ -102,7 +102,7 @@ svg {
 .valid,
 .valid1,
 .valid2 {
-    font-size: 10px;
+    font-size: 0.625rem;
     color: red;
 }
 
@@ -134,7 +134,7 @@ svg {
 
 @media screen and (min-width: 350px) {
     input {
-        width: 90px;
+        width: 5.625rem;
     }
 
     svg {
