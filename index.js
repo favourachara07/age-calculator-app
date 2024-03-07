@@ -12,15 +12,30 @@ const seconds = currentDate.getSeconds();
 console.log(
   `Current Date and Time: ${curYear}-${curMonth}-${curDay} ${hours}:${minutes}:${seconds}`
 );
+
 const reset = () => {
   document.getElementsByClassName("valid")[0].innerText = "";
   document.getElementsByClassName("valid1")[0].innerText = "";
   document.getElementsByClassName("valid2")[0].innerText = "";
 };
+
 function calculateAge() {
   // Clear previous results
   document.getElementById("result").innerText = "";
 
+  document.querySelector(".dash1");
+  document.querySelector(".dash2");
+  document.querySelector(".dash3");
+  //remove class
+  document.querySelectorAll(".agecalc span").forEach((span) => {
+    span.classList.remove("animate");
+    // Trigger reflow to ensure the animation class is removed
+    void span.offsetWidth;
+  });
+  // Add animation class to trigger animation
+  document.querySelector(".dash1").classList.add("animate");
+  document.querySelector(".dash2").classList.add("animate");
+  document.querySelector(".dash3").classList.add("animate");
   // Get input values
   const day = parseInt(document.getElementById("day").value);
   const month = parseInt(document.getElementById("month").value);
@@ -34,13 +49,12 @@ function calculateAge() {
     return;
   }
   if ((month == 4 || month == 6 || month == 9 || month == 11) && day > 30) {
-    reset()
+    reset();
     document.getElementsByClassName("error")[0].innerText =
       "This month does not have more than 30days";
     return;
   }
 
-  
   // Check for valid input
   if (isNaN(day) || isNaN(month) || isNaN(year)) {
     document.getElementsByClassName("valid")[0].innerText = "Enter a day";
