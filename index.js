@@ -36,6 +36,9 @@ function calculateAge() {
   document.querySelector(".dash1").classList.add("animate");
   document.querySelector(".dash2").classList.add("animate");
   document.querySelector(".dash3").classList.add("animate");
+
+  out=document.querySelector(".input_box")
+
   // Get input values
   const day = parseInt(document.getElementById("day").value);
   const month = parseInt(document.getElementById("month").value);
@@ -60,6 +63,7 @@ function calculateAge() {
     document.getElementsByClassName("valid")[0].innerText = "Enter a day";
     document.getElementsByClassName("valid1")[0].innerText = "Enter a month";
     document.getElementsByClassName("valid2")[0].innerText = "Enter a year";
+    out.classList.add("outline");
     return;
   } else {
     reset();
@@ -68,18 +72,21 @@ function calculateAge() {
     if (day > 31 || day > curDay) {
       document.getElementsByClassName("valid")[0].innerText =
         "Must be a valid day";
+      out.classList.add("outline");
     } else {
       document.getElementsByClassName("valid")[0].innerText = "";
     }
     if (month > 12 || month > curMonth) {
       document.getElementsByClassName("valid1")[0].innerText =
         "Must be a valid month";
+      out.classList.add("outline");
     } else {
       document.getElementsByClassName("valid1")[0].innerText = "";
     }
     if (year > curYear) {
       document.getElementsByClassName("valid2")[0].innerText =
         "Must be a valid year";
+      out.classList.add("outline");
     } else {
       document.getElementsByClassName("valid2")[0].innerText = "";
     }

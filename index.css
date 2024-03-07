@@ -28,7 +28,9 @@ body {
 }
 
 
-
+.outline>input{
+    border-color: red;
+}
 input {
     width: 6.25rem;
     height: 2.5rem;
