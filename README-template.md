@@ -137,7 +137,7 @@ I hope to focus on learning and working with React after I have completed two mo
 
 ## Author
 
-- Website - [Favour Achara](https://www.your-site.com)
+- Website - [Favour Achara](https://favourachara07.github.io/My-Portfolio/)
 - Frontend Mentor - [@favourachara07](https://www.frontendmentor.io/profile/favourachara07)
 - Twitter - [@favour2207](https://www.twitter.com/favour2207)
 
