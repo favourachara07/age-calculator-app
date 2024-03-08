@@ -59,7 +59,7 @@ Users should be able to:
 
 ### What I learned
 
-I really learnt alot during this project. I learned while working on the Javascript section of the project. This project involved calculations that can only be achieved by thinking really logically and reasoning. In the html section, I was able to develop more and better understanding of classes and ids, and also the right use of elements. For the CSS, I was able to understand and develop a method fo styling that suits me, i was also able to understand more concepts that i found challenging by applying it in my styles. For the JS section, I developed a better understanding of the DOM, if and else statements, and I also learnt and developed my principle of critical thinking and reasoning
+I really learned a lot during this project, particularly while working on the JavaScript section. This project required calculations that can only be achieved through logical thinking and reasoning. In the HTML section, I developed a deeper understanding of classes, IDs, and the appropriate use of elements. With CSS, I honed a styling method that suits me and tackled challenging concepts by applying them in my styles. In the JavaScript section, I gained a better understanding of the DOM, if-else statements, and further developed my critical thinking and reasoning skills.
 
 To see how you can add code snippets, see below:
 
@@ -126,7 +126,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-I hope to focus on learning and working with React after i have completed two more projects with html,css and js because working and commanding the dom directly by myself is very tiring. I want that solid foundation before moving on to React. Also, i want to master the act of making my codes shorter and more efficient and cleaner.
+I hope to focus on learning and working with React after I have completed two more projects with HTML, CSS, and JS because working with and manipulating the DOM directly by myself is very tiring. I want to establish a solid foundation before moving on to React. Additionally, I aim to master the art of making my code shorter, more efficient, and cleaner
 
 
 
@@ -138,13 +138,13 @@ I hope to focus on learning and working with React after i have completed two mo
 ## Author
 
 - Website - [Favour Achara](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@favour2207](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@favourachara07](https://www.frontendmentor.io/profile/favourachara07)
+- Twitter - [@favour2207](https://www.twitter.com/favour2207)
 
 
 ## Acknowledgments
 
-I'm actually proud with myself. This is a project that I did independently (95% by myself). Although I got stuck at a point, I did my very best to resolve the dilemma I was in, I solved up to 80% of the problem by myself then I consulted ChatGPT for corrections on what I did.
+I'm actually proud of myself. This is a project that I did independently (95% by myself). Although I got stuck at one point, I did my very best to resolve the dilemma I was in. I managed to solve up to 80% of the problem by myself, and then I consulted ChatGPT for corrections on what I had done.
 This is what ChatGPT corrected me on
 ```js
 else {
