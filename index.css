@@ -31,6 +31,9 @@ body {
 .outline>input{
     border-color: red;
 }
+.outline {
+    border-color: red;
+}
 input {
     width: 6.25rem;
     height: 2.5rem;
@@ -127,38 +130,38 @@ svg {
 .m-txt {
     position: absolute;
     top: 10px;
-    left: 133px;
+    left: 7.6875rem;
 }
 
 .y-txt {
     position: absolute;
     top: 10px;
-    left: 244px;
+    left: 14.0625rem;
 }
 
-.valid,
-.valid1,
-.valid2 {
+.error-d,
+.error-m,
+.error-y {
     font-size: 0.625rem;
     color: red;
 }
 
-.valid {
+.error-d {
     position: absolute;
     top: 66px;
     left: 18px;
 }
 
-.valid1 {
+.error-m {
     position: absolute;
     top: 66px;
-    left: 132px
+    left: 7.6875rem
 }
 
-.valid2 {
+.error-y {
     position: absolute;
     top: 66px;
-    left: 245px
+    left: 14.1875rem;
 }
 
 .input_box {
