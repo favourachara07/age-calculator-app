@@ -15,8 +15,9 @@ body {
     align-items: center;
     height: 100vh;
 }
+
 .age_box {
-    width: 390px;
+    width: 33rem;
     background-color: #ffffff;
     border-radius: 20px;
     border-bottom-right-radius: 100px;
@@ -28,12 +29,14 @@ body {
 }
 
 
-.outline>input{
+.outline>input {
     border-color: red;
 }
+
 .outline {
     border-color: red;
 }
+
 input {
     width: 6.25rem;
     height: 2.5rem;
@@ -46,14 +49,17 @@ input {
     border-radius: 10px;
     border: 0.0001px solid hsl(0, 0%, 86%);
 }
-input:hover{
+
+input:hover {
     border-color: hsl(259, 100%, 65%);
     transition: all .3s;
 }
+
 svg:hover {
     background-color: hsl(0, 0%, 8%);
     transition: all .3s;
 }
+
 #dd {
     margin-left: 15px;
 }
@@ -61,21 +67,24 @@ svg:hover {
 .agecalc {
     margin-top: 65px;
     margin-left: 10px;
-    font-size: 64px;
+    font-size: 5rem;
     font-weight: 800;
-    
+    position: relative;
+    left: 2rem;
 }
+
 .dash1,
 .dash2,
 .dash3 {
     color: hsl(259, 100%, 65%);
-    
+
 }
 
-.animate{
+.animate {
     opacity: 0;
     animation: myfirst 1s ease-in-out 0.6s normal forwards;
 }
+
 @keyframes myfirst {
     0% {
         opacity: 0%;
@@ -96,17 +105,17 @@ svg {
 
 .y {
     position: relative;
-    top: -0.4rem;
+    top: -1.4rem;
 }
 
 .m {
     position: relative;
-    top: -1rem;
+    top: -2rem;
 }
 
 .d {
     position: relative;
-    top: -1.5rem;
+    top: -2.5rem;
 }
 
 .d-txt,
